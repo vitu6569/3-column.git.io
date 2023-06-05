@@ -165,6 +165,79 @@
 
 }
 
+@media (max-width: 264px) {
+    html {
+        font-size: 15px;
+        font-family: 'Big Shoulders Display', cursive;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: var(--Very-light-gray);
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .sedans-card {
+        border-radius: 1rem 1rem 0 0;
+    }
+    .luxury-card{
+        border-radius: 0 0 1rem 1rem;
+    }
+    
+    .button-sedans {
+        color: var(--Bright-orange);
+        text-align: center;
+        margin-top: 1rem;
+        background-color: var(--Very-light-gray);
+        border: 1px solid var(--Transparent-white);
+        padding: 1rem;
+        width: 10rem;
+        border-radius: 5rem;
+    }
+    .button-suvs {
+        color: var(--Dark-cyan);
+        text-align: center;
+        margin-top: 1rem;
+        background-color: var(--Very-light-gray);
+        border: 1px solid var(--Transparent-white);
+        padding: 1rem;
+        width: 10rem;
+        border-radius: 5rem;
+    }
+    .button-luxury {
+        color: var(--Very-dark-cyan);
+        text-align: center;
+        margin-top: 1rem;
+        background-color: var(--Very-light-gray);
+        border: 1px solid var(--Transparent-white);
+        padding: 1rem;
+        width: 10rem;
+        border-radius: 5rem;
+    }
+    .button-sedans:hover {
+        background: transparent;
+        border: 0.2rem solid var(--Transparent-white);
+        color: var(--Transparent-white);
+    }
+    .button-suvs:hover {
+        background: transparent;
+        border: 0.2rem solid var(--Transparent-white);
+        color: var(--Transparent-white);
+    }
+    .button-luxury:hover {
+        background: transparent;
+        border: 0.2rem solid var(--Transparent-white);
+        color: var(--Transparent-white);
+    }
+
+}
+
 .sedans-card {
     background-color: var(--Bright-orange);
     padding: 3rem;
